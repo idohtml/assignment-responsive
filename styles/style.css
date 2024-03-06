@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+}
+
+.grid-cols {
+  grid-template-columns: repeat(410px, 1fr);
+}
+
+.grid-rows {
+  grid-template-rows: repeat(576px, auto);
+}
+
+.wrapper {
+  & h1 {
+    font-size: 102px;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+
+  & p {
+    font-size: 22px;
+    font-weight: 400;
+  }
+}
